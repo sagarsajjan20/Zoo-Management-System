@@ -1,0 +1,41 @@
+.my-orders {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.my-orders h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.tickets-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.ticket-card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.ticket-card:hover {
+    transform: translateY(-5px);
+}
+
+.ticket-card p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.ticket-card p strong {
+    color: #333;
+}
